@@ -2,15 +2,15 @@
 
 <!-- Animated banner — auto-switches with the visitor's OS/browser color scheme -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
-  <img alt="Rameshwaran — FullStack Developer banner" src="assets/banner.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Rameshwaran — FullStack Developer banner" src="banner.svg?v=1" width="100%">
 </picture>
 
 <br/>
 
 <!-- Swinging ID badge -->
-<img src="assets/lanyard.svg?v=1" alt="Rameshwaran ID badge" height="360">
+<img src="lanyard.svg?v=1" alt="Rameshwaran ID badge" height="360">
 
 <br/>
 
@@ -53,12 +53,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="assets/stats.svg?v=1" alt="GitHub stats" width="49%">
-<img src="assets/langs.svg?v=1" alt="Most used languages" width="49%">
+<img src="stats.svg?v=1" alt="GitHub stats" width="49%">
+<img src="langs.svg?v=1" alt="Most used languages" width="49%">
 </div>
 
 <div align="center">
-<img src="assets/trophies.svg?v=1" alt="GitHub trophies" width="100%">
+<img src="trophies.svg?v=1" alt="GitHub trophies" width="100%">
 </div>
 
 <br/>
@@ -90,9 +90,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rameshfront/rameshfront/output/github-snake-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rameshfront/rameshfront/output/github-snake.svg?v=1">
-  <img alt="github-snake-animation" src="https://raw.githubusercontent.com/rameshfront/rameshfront/output/github-snake.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rameshfront/profile-rameshfront/output/github-snake-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rameshfront/profile-rameshfront/output/github-snake.svg?v=1">
+  <img alt="github-snake-animation" src="https://raw.githubusercontent.com/rameshfront/profile-rameshfront/output/github-snake.svg?v=1" width="100%">
 </picture>
 
 <sub>Generated daily by <code>.github/workflows/github-snake.yml</code> (Platane/snk) → pushed to the <code>output</code> branch.</sub>
