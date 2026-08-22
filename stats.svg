@@ -1,0 +1,72 @@
+<svg width="480" height="280" viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats for rameshfront">
+  <defs>
+    <clipPath id="cardClip"><rect x="0" y="0" width="480" height="280" rx="20"/></clipPath>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0417"/><stop offset="100%" stop-color="#2b0f42"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3d9a"/><stop offset="100%" stop-color="#9b4dff"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3d9a"/><stop offset="100%" stop-color="#9b4dff"/>
+    </linearGradient>
+  </defs>
+  <style><![CDATA[
+    .mono { font-family:'SFMono-Regular',Consolas,monospace; }
+    .fadeRow { opacity:0; animation: rowIn .6s ease forwards; }
+    @keyframes rowIn { from{opacity:0; transform:translateX(-10px);} to{opacity:1; transform:translateX(0);} }
+    .barFill { transform-box: fill-box; transform-origin:left center; transform:scaleX(0);
+                animation: growBar 1.2s cubic-bezier(.2,.7,.3,1) forwards; }
+    @keyframes growBar { to { transform:scaleX(1); } }
+    .ringProgress { stroke-dashoffset:339.29; animation: ringGrow 1.6s cubic-bezier(.2,.7,.3,1) forwards; animation-delay:.2s; }
+    @keyframes ringGrow { to { stroke-dashoffset:30.54; } }
+    .rankText { opacity:0; animation: popRank .5s ease forwards; animation-delay:1.4s; }
+    @keyframes popRank { from{opacity:0; transform:scale(.6);} to{opacity:1; transform:scale(1);} }
+    .titleFade { opacity:0; animation: fadeIn .5s ease forwards; }
+    @keyframes fadeIn { to { opacity:1; } }
+  ]]></style>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="480" height="280" fill="url(#bgGrad)"/>
+    <rect x="1" y="1" width="478" height="278" rx="19" fill="none" stroke="#5b2a86"/>
+
+    <text x="24" y="34" class="mono titleFade" font-size="16" font-weight="700" fill="#f7ecff">rameshfront's GitHub Stats</text>
+
+    <g transform="translate(24,54)">
+      
+    <g class="fadeRow" style="animation-delay:0.2s">
+      <text x="0" y="74" class="mono" font-size="13" fill="#c9a7e0">Total Stars</text>
+      <text x="210" y="74" text-anchor="end" class="mono" font-size="13" font-weight="700" fill="#ffc25c">312</text>
+      <rect x="0" y="82" width="210" height="6" rx="3" fill="#1a0c2b" stroke="#5b2a86" stroke-width="1"/>
+      <rect class="barFill" style="animation-delay:0.5s" x="0" y="82" width="136.5" height="6" rx="3" fill="url(#barGrad)"/>
+    </g>
+    <g class="fadeRow" style="animation-delay:0.35s">
+      <text x="0" y="116" class="mono" font-size="13" fill="#c9a7e0">Total Commits</text>
+      <text x="210" y="116" text-anchor="end" class="mono" font-size="13" font-weight="700" fill="#ffc25c">1,840</text>
+      <rect x="0" y="124" width="210" height="6" rx="3" fill="#1a0c2b" stroke="#5b2a86" stroke-width="1"/>
+      <rect class="barFill" style="animation-delay:0.65s" x="0" y="124" width="128.8" height="6" rx="3" fill="url(#barGrad)"/>
+    </g>
+    <g class="fadeRow" style="animation-delay:0.5s">
+      <text x="0" y="158" class="mono" font-size="13" fill="#c9a7e0">Pull Requests</text>
+      <text x="210" y="158" text-anchor="end" class="mono" font-size="13" font-weight="700" fill="#ffc25c">96</text>
+      <rect x="0" y="166" width="210" height="6" rx="3" fill="#1a0c2b" stroke="#5b2a86" stroke-width="1"/>
+      <rect class="barFill" style="animation-delay:0.8s" x="0" y="166" width="134.4" height="6" rx="3" fill="url(#barGrad)"/>
+    </g>
+    <g class="fadeRow" style="animation-delay:0.6499999999999999s">
+      <text x="0" y="200" class="mono" font-size="13" fill="#c9a7e0">Issues Closed</text>
+      <text x="210" y="200" text-anchor="end" class="mono" font-size="13" font-weight="700" fill="#ffc25c">58</text>
+      <rect x="0" y="208" width="210" height="6" rx="3" fill="#1a0c2b" stroke="#5b2a86" stroke-width="1"/>
+      <rect class="barFill" style="animation-delay:0.95s" x="0" y="208" width="135.3" height="6" rx="3" fill="url(#barGrad)"/>
+    </g>
+    </g>
+
+    <g transform="translate(362,140.0)">
+      <circle r="54" fill="none" stroke="#1a0c2b" stroke-width="10"/>
+      <circle class="ringProgress" r="54" fill="none" stroke="url(#ringGrad)" stroke-width="10"
+        stroke-linecap="round" stroke-dasharray="339.29" transform="rotate(-90)"/>
+    </g>
+    <text class="rankText" x="362" y="148.0" text-anchor="middle" font-size="30" font-weight="800" fill="#f7ecff"
+      style="transform-box: fill-box; transform-origin:center;">A+</text>
+    <text x="362" y="174.0" text-anchor="middle" class="mono" font-size="11" fill="#c9a7e0">RANK</text>
+  </g>
+</svg>
