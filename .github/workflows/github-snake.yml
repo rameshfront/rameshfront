@@ -8,7 +8,7 @@
 #   2. Make sure the repo has an `output` branch it can push to (the action
 #      creates/updates it automatically — you don't need to create it by hand).
 #   3. Settings → Actions → General → Workflow permissions → set to
-#      "Read and write permissions" so the job can push.
+#     "Read and write permissions" so the job can push.
 
 name: Generate Snake Animation
 
